@@ -1,4 +1,4 @@
-var expansion = 8;
+var expansion = 9;
 
 var expansionMap = [
     'Vanilla',
@@ -10,6 +10,7 @@ var expansionMap = [
     'Legion',
     'BattleForAzeroth',
     'Shadowlands',
+    'Dragonflight',
 ]
 
 var audioPath = './assets/audio';
@@ -25,7 +26,8 @@ var verMap = [
     'Version 6.2.0 (20173) (Release x64)',
     'Version 7.3.5 (26365) (Release x64)',
     'Version 8.3.7 (35662) (Release x64)',
-    'Version 9.0.1 (35944) (Release x64)'
+    'Version 9.0.1 (35944) (Release x64)',
+    'Version 10.0.2 (46741) (Release x64)'
 ];
 
 var dateMap = [
@@ -37,13 +39,15 @@ var dateMap = [
     'Jun 20 2015',
     'Apr 3 2018',
     'Aug 24 2020',
-    'Oct 13 2020'
+    'Oct 13 2020',
+    'Nov 18 2022'
 ];
 
 var buttonColorMap = [
     0,
     0,
     1,
+    0,
     0,
     0,
     0,
@@ -61,7 +65,8 @@ var copyMap = [
     2015,
     2018,
     2020,
-    2020
+    2020,
+    2022
 ];
 
 var cursor;
