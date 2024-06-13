@@ -72,7 +72,7 @@ var copyMap = [
 var cursor;
 var audio = new Audio();
 var buttonAudio = new Audio();
-var audioInitialPlayback = false;
+var audioInitialPlayback = true;
 var queuePos = null;
 var disconnected = false;
 
@@ -151,7 +151,7 @@ function manualChangeExpac()
 {
     console.log("Changing xpac to: ");
     expansion += 1;
-    if(expansion > 8)
+    if(expansion > 9)
         expansion = 0;
     
     var bg = document.getElementById('background');
