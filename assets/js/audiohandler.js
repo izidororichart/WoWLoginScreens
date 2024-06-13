@@ -72,7 +72,7 @@ var copyMap = [
 var cursor;
 var audio = new Audio();
 var buttonAudio = new Audio();
-var audioInitialPlayback = true;
+var audioInitialPlayback = false;
 var queuePos = null;
 var disconnected = false;
 
