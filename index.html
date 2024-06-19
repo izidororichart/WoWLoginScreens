@@ -15,7 +15,7 @@
             <!--QUIT BUTTON AND OPTIONS BUTTON-->
             <div id="quitButtonContainer" class="foreground">
                 <button id="optButton" class="button" onclick="playButtonAudio(0); showSettings();" > Options </button>
-                <button id="quitButton" class="button" onclick="location.href='http://www.wowaholics.org/'; playButtonAudio(0);" > Quit </button>
+                <button id="quitButton" class="button" onclick="location.href='http://google.com/'; playButtonAudio(0);" > Quit </button>
             </div>
             
             <!--OPTIONS PANEL-->
@@ -31,31 +31,13 @@
 
             <!--QUEUE BOX-->
             <div class="centered" id="queue">
-                <div class="UIBox" style="width: 450px; height: 100px;"></div>
-                <div class="UIBoxBackground" style="width: 500px; height: 150px;"></div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/7DFaKAKU7g4?start=0&amp;end=1079" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="UIBox" style="width: 640px; height: 360px;"></div>
+                <div class="UIBoxBackground" style="width: 690px; height: 410px;"></div>
                 
-                <div id="queueTextContainer">
-                    <p class="queueText">Realm is Full</p>
-                    <p class="queueText" id="queuePosition">Position in Queue: 0000</p>
-                    <p class="queueText" id="queueTime">Estimated time: 999 min</p>
-                </div>
-                
-                <button class="button" id="realmListButton" onclick="playButtonAudio(0); doDisconnect();"> Change Realm </button>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7DFaKAKU7g4?start=0&amp;end=1079" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <!--DISCONNECT MESSAGE-->
-            <div class="centered" id="disconnectBox" style="display: none;">
-                <div class="UIBox" style="width: 550px; height: 100px;"></div>
-                <div class="UIBoxBackground" style="width: 600px; height: 150px;"></div>
-                
-                <div id="dcTextContainer">
-                    <p class="queueText">You have been disconnected from the server.</p>
-                    <p class="queueText">(WOW51900319)</p>
-                </div>
-                
-                <button class="button" id="disconButton" onclick="playButtonAudio(1); resetQueue();"> Okay </button>
-            </div>
 
             <!--COPYRIGHT TEXT-->
             <div class="fullWidth">
