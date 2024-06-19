@@ -69,6 +69,19 @@ var copyMap = [
     2022
 ];
 
+var videolink = [
+    'F_s8EN7vq1U',
+    '7DFaKAKU7g4',
+    'HP-9glTXHWI',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+]
+
 var cursor;
 var audio = new Audio();
 var buttonAudio = new Audio();
