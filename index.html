@@ -12,51 +12,32 @@
             <!-- LOGO -->
             <button class="xPacButton" id="logo" onclick="manualChangeExpac(); playButtonAudio(1);"></button>
             
-            <!--QUIT BUTTON AND OPTIONS BUTTON-->
-            <div id="quitButtonContainer" class="foreground">
-                <button id="optButton" class="button" onclick="playButtonAudio(0); showSettings();" > Options </button>
-                <button id="quitButton" class="button" onclick="location.href='http://google.com/'; playButtonAudio(0);" > Quit </button>
-            </div>
-            
-            <!--OPTIONS PANEL-->
-            <div class="centered" id="options" style="display: none;">
-                <div class="UIBox" style="width: 450px; height: 15px;"></div>
-                <div class="UIBoxBackground" style="width: 500px; height: 75px;"></div>
-
-                <div class="slidecontainer">
-                    <p class="text" style="position: fixed; margin-top: 0%;">Sound</p>
-                    <input type="range" min="1" max="100" value="50" class="slider" id="volumeSlider" oninput="adjustVolume();">
-                </div>
-            </div>
-
-            <!--QUEUE BOX-->
+            <!--VIDEO BOX-->
             <div class="centered" id="queue">
                 <div class="UIBox" style="width: 640px; height: 360px;"></div>
                 <div class="UIBoxBackground" style="width: 690px; height: 410px;"></div>
                 
 
-          <iframe id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/7DFaKAKU7g4?start=0&amp;end=1079" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+<!--          <iframe id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/7DFaKAKU7g4?start=0&amp;end=1079" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
             </div>
-
-            <!--DISCONNECT MESSAGE-->
 
             <!--COPYRIGHT TEXT-->
             <div class="fullWidth">
-                <p id="copyrightText">Copyright 2004-2020 Blizzard Entertainment. All Right Reserved.</p>
+                <p id="copyrightText">Copyright 2004-2006 Blizzard Entertainment. All Right Reserved.</p>
             </div>
 
             <!--BUILD VER-->
-            <p id="buildVersion">Version 9.0.1 (35944) (Release x64)</p>
+            <p id="buildVersion">Version 1.12.1 (5875) (Release)</p>
 
             <!--BUILD DATE-->
-            <p id="buildDate">Oct 13 2020</p>
+            <p id="buildDate">Sept 19 2006</p>
 
             <!-- BACKGROUND -->
             <div class="fullScreen">
                 <div class="centered">
                     <video autoplay muted="true" loop id="background">
-                        <source src="assets/img/bg/Shadowlands.webm" type="video/webm">
-                        <source src="assets/img/bg/Shadowlands.mp4" type="video/mp4">
+                        <source src="assets/img/bg/Vanilla.webm" type="video/webm">
+                        <source src="assets/img/bg/Vanilla.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
